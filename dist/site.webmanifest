@@ -1,6 +1,6 @@
 {
-    "name": "REED STORES",
-    "short_name": "REED STORES",
+    "name": "REED-MEDIA",
+    "short_name": "REED-MEDIA",
     "start_url": "/",
     "icons": [
         {
@@ -9,8 +9,8 @@
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
             "type": "image/png"
         },
         {
@@ -20,6 +20,7 @@
             "purpose": "maskable"
           }
     ],
+    
     "theme_color": "#1c1c2e",
     "background_color": "#1c1c2e",
     "display": "standalone"
