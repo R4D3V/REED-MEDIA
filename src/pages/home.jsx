@@ -1,116 +1,106 @@
-import video from "../video/one.mp4";
-import { Link } from "react-router-dom";
-import two from "../video/two.mp4";
-
+import image from "../icons/icon.png";
+import cons from "../icons/cons.png"
 
 function Home() {
   return (
-   <div >
-     <div className="flex-col bg-clip-border bg-transparent relative grid sm:h-2/4"> 
-       <video className="w-full h-full object-cover lg:h-[70vh]" autoPlay loop muted>
-        <source src={video} type="video/mp4" />
-        Your
-      </video>
-      <div className=" px-6 absolute inset-0 bg-black/50 pb-4 flex flex-col justify-end items-center">
-      <h4 className="block antialiased tracking-normal font-sans text-2xl sm:textlg text-gray-300 font-semibold leading-snug text-white">
-        Welcome to our online store.
-      </h4>
+    <div className="container gap-2 w-[100%] mt-[70px] ">
+      <div className="p-6 border-gray-500 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
+        <div className="lg:h-[80vh] flex items-center justify-center">          
+        <img src={image} alt="brand" />
+        </div>
+        <div className="lg:pt-24 lg:pl-8">
+          <h1 className="text-4xl font-bold">
+          Branding & website design agency
+          </h1>
+          <p className="py-6">
+          We specialize in visual storytelling by creating cohesive brand and
+            website design solutions for small businesses, giving lasting
+            impressions to audiences in a digital world.
+          </p>
+          <button className="py-4 bg-slate-500 p-3 rounded-2xl">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div className="p-6 place-content-center w-full grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
+        <div className="">          
+        <img src={cons} alt="brand" className="rounded-md"/>
+        </div>
+        <div className="lg:pt-24 lg:pl-12">
+          <h1 className="text-4xl font-bold">
+          <span className="text-violet-900"><b>Design</b></span> is strategic.
+          </h1>
+          <p className="py-6">
+          "A well-crafted design strategy consistently
+              produces desired outcomes and brand
+              awareness. We are firm believers that success
+              lies in creative collaboration with our clients."
+          </p>
+          <h2  className="font-bold text-lg underline py-8">
+            Schedule your consultation today!
+          </h2>
+        </div>
+      </div>
+      <div className="p-6 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2">
+        <div className="flex justify-center items-center font-mono uppercase ">
+          <h1 className="text-violet-900 text-xl">
+          Our approach for
+          creating a winning
+          brand.
+          </h1>
+        </div>
+        {/* This div tag will be used as the container for the animated bar */}
+        <div>
+         <div className="container">
+         <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
+            01
+          </h1>
+          <div className="pl-8 pt-12 relative">
+          <h2 className="font-bold text-xl pb-6">
+          Brand Strategy
+          </h2>
+          <p >
+          Brand strategy is critical for long-term success.
+            Outshining competitors and capturing the target
+            audience are key.
+          </p>
+          </div>
+         </div>
+         <div className="container">
+         <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
+            02
+          </h1>
+          <div className="pl-8 pt-12 relative">
+          <h2 className="font-bold text-xl pb-6">
+          Brand Design
+          </h2>
+          <p >
+          Keeping the brand design unique and meaningful helps
+          in communicating the brand's timeless value
+          effectively.
+          </p>
+          </div>
+         </div>
+         <div className="container">
+         <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
+            03
+          </h1>
+          <div className="pl-8 pt-12 relative">
+          <h2 className="font-bold text-xl pb-6">
+          Web Design
+          </h2>
+          <p >
+          A beautifully crafted website is the best tool for brand
+          awareness, and ultimately results in increased
+          revenues.
+          </p>
+          </div>
+         </div>
         
-        <p className="block antialiased  text-white my-2 font-normal text-center">We are excited to have you here  <b>And</b> showcase our beautiful products to you.</p>
-        <Link to='/products'className="p-4 text-sm text-white bg-black rounded-full w-fit ">
-        Check out our products
-        </Link>
+        
+        </div>
       </div>
     </div>
-     
-    <div className="p-4 flex flex-wrap justify-center gap-6 lg:gap-20 md:gap-14">
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UZe35tk5UoA"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/7-xmprXdiAk"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/PV9QQFDB5W8"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/TSYQ5stQVjg"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-            <img
-              className="aspect-square max-w-[clamp(10rem,28vmin,20rem)] rounded-md object-cover shadow-md"
-              src="https://source.unsplash.com/UOavP_Z38lE"
-              alt=""
-            />
-          </div>
-    <section className="container px-6 py-8 mx-auto lg:py-16 " id="about">
-        <div className="lg:flex lg:items-center lg:-mx-4">
-          <div className="lg:w-1/2 lg:px-4 text-center">
-            <h3 className="text-3xl lg:text-5xl font-medium text-gray-600 md:text-2xl lg:text-3xl">
-              We bring you the best of what you could think off.
-            </h3>
-
-            <p className="mt-6 text-gray-400 ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              laboriosam provident voluptatum id magni iste nobis corrupti,
-              delectus quis repellat, debitis error quod explicabo molestiae
-              rerum totam ab sunt excepturi?
-            </p>
-
-            {/* <button className="flex text-center items-center mt-8 -mx-2 text-indigo-500">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 mx-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              ></svg>
-              <p className="mx-1 font-semibold">PLAY VIDEO</p>
-            </button> */}
-          </div>
-
-          <div className="mt-8 rounded-2xl">
-          <video className="w-full h-full lg:h-[70vh]" autoPlay loop muted>
-        <source src={two} type="video/mp4" className="" />
-        Your
-      </video>
-          </div>
-        </div>
-      </section>
-      
-   </div>
     );
 }
 

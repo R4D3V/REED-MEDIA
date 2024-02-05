@@ -16,21 +16,14 @@ export default function Footer() {
                <Link to='/faq'>FAQ</Link>
             </a>
 
-            <a href="" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                <Link to='/products'>SHOP</Link>
-            </a>
-
-            <a href="" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
-                <Link to='/testimonials'>TESTIMONIALS</Link>
-            </a>
-
+           
             <a href="" className="text-sm transition-colors duration-300  hover:text-blue-500 dark:hover:text-blue-400">
                 
                 <Link to='/terms'>TERM & CONDITIONS</Link>
             </a>
         </div>
 
-        <p className="mt-6 text-sm lg:mt-0">© Copyright {new Date().getFullYear()} <Link to='/'>REED~STORES</Link>  </p>
+        <p className="mt-6 text-sm lg:mt-0">© Copyright {new Date().getFullYear()} <Link to='/'>REED~MEDIA</Link>  </p>
     </div>     
     </footer>
     </>
