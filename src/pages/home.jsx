@@ -42,7 +42,7 @@ function Home() {
         </div>
       </div>
       <div className="p-6 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2">
-        <div className="flex justify-center items-center font-mono uppercase ">
+        <div className="flex justify-center items-center font-serif uppercase ">
           <h1 className="text-violet-900 text-xl">
           Our approach for
           creating a winning
@@ -55,7 +55,7 @@ function Home() {
          <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
             01
           </h1>
-          <div className="pl-8 pt-12 relative">
+          <div className="pl-12 pt-14 relative">
           <h2 className="font-bold text-xl pb-6">
           Brand Strategy
           </h2>
@@ -70,7 +70,7 @@ function Home() {
          <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
             02
           </h1>
-          <div className="pl-8 pt-12 relative">
+          <div className="pl-12 pt-14 relative">
           <h2 className="font-bold text-xl pb-6">
           Brand Design
           </h2>
@@ -85,7 +85,7 @@ function Home() {
          <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
             03
           </h1>
-          <div className="pl-8 pt-12 relative">
+          <div className="pl-12 pt-14 relative">
           <h2 className="font-bold text-xl pb-6">
           Web Design
           </h2>
