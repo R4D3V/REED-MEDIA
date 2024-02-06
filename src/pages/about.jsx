@@ -1,9 +1,9 @@
-
+import { Link } from "react-router-dom";
 
 function About() {
     
   return (
-    <div className="p-4 font-mono">
+    <div className="p-4">
         <div className="pb-4 font-bold">
             <h1 className="text-3xl text-center ">
             Welcome to REED-MEDIA – Crafting Digital Excellence
@@ -77,6 +77,12 @@ function About() {
         <h2>
         Explore our portfolio and see the transformative impact we've had on businesses like yours. Ready to elevate your online presence? Contact REED-MEDIA today and let's embark on a journey to digital excellence together.
         </h2>
+
+        <div className="flex justify-center animate-bounce">
+      <button className="py-2 hover:animate-pulse bg-slate-500 p-3 mt-6 rounded-2xl text-center w-fit">
+            <Link to="/contact">Lets build something!</Link>
+      </button>
+      </div>
     </div>
   )
 }

@@ -1,13 +1,14 @@
 import image from "../icons/icon.png";
 import cons from "../icons/cons.png";
 import brand from "../icons/brand.png"
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="gap-2 w-[100%] font-mono ">
+    <div className="gap-2 w-[100%]">
       <div className="p-6 border-gray-500 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="lg:h-[80vh] flex items-center justify-center">          
-        <img src={image} alt="brand" />
+        <img src={image} alt="brand"  className="hover:animate-bounce"/>
         </div>
         <div className="lg:pt-24 lg:pl-8">
           <h1 className="text-4xl font-bold">
@@ -18,16 +19,18 @@ function Home() {
             website design solutions for small businesses, giving lasting
             impressions to audiences in a digital world.
           </p>
-          <button className="py-4 bg-slate-500 p-3 rounded-2xl">
-            Read More
+          <div className="flex justify-end underline ">
+          <button className="py-2 bg-slate-500 p-3 rounded-2xl animate-bounce">
+            <Link to="/about">Read More</Link>
           </button>
+          </div>
         </div>
       </div>
       <div className="p-6 place-content-center w-full grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="">          
         <img src={cons} alt="brand" className="shadow-lg shadow-neutral-950 rounded-lg dark:shadow-slate-200"/>
         </div>
-        <div className="lg:pt-24 lg:pl-12">
+        <div className="lg:pt-8 lg:pl-12">
           <h1 className="text-4xl font-bold">
           <span className="text-violet-900"><b>Design</b></span> is strategic.
           </h1>
@@ -107,9 +110,14 @@ function Home() {
           </p>
           </div>
          </div>
-        
+
         
         </div>
+      </div>
+      <div className="flex justify-center animate-bounce">
+      <button className="py-2 hover:animate-pulse bg-slate-500 p-3 rounded-2xl text-center w-fit">
+            <Link to="/contact">Lets build something!</Link>
+      </button>
       </div>
     </div>
     );
