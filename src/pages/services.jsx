@@ -9,7 +9,7 @@ function services() {
             </p>
         </div>
 
-<div className="flex p-4 flex-wrap w-fill justify-center lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 gap-6">
+<div className="flex p-4 flex-wrap w-fill justify-center lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 gap-8">
     <div className="p-4  m-2 shadow-black shadow-lg dark:shadow-teal-200 dark:border-x-amber-100 dark:border-2 rounded-lg h-fit w-fit">
          <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
             01
