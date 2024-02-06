@@ -24,8 +24,8 @@ function Home() {
         </div>
       </div>
       <div className="p-6 place-content-center w-full grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
-        <div className="shadow-lg shadow-neutral-950 rounded-lg dark:bg-slate-200">          
-        <img src={cons} alt="brand" className="rounded-lg"/>
+        <div className="">          
+        <img src={cons} alt="brand" className="shadow-lg shadow-neutral-950 rounded-lg dark:shadow-slate-200"/>
         </div>
         <div className="lg:pt-24 lg:pl-12">
           <h1 className="text-4xl font-bold">
@@ -44,7 +44,7 @@ function Home() {
       </div>
       <div className="flex flex-wrap w-full justify-center gap-4 p-4">
           <div className="w-full relative">
-            <img src={brand} alt="brand"  className="rounded-xl w-full"/>
+            <img src={brand} alt="brand"  className="rounded-xl w-full shadow-lg shadow-neutral-950 dark:shadow-slate-200"/>
           </div>
           <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
             <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] ">
