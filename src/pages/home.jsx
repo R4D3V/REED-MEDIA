@@ -8,7 +8,7 @@ function Home() {
     <div className="gap-2 w-[100%]">
       <div className="p-6 border-gray-500 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="lg:h-[80vh] flex items-center justify-center">          
-        <img src={image} alt="brand"  className="hover:animate-bounce"/>
+        <img src={image} alt="brand"  className=""/>
         </div>
         <div className="lg:pt-24 lg:pl-8">
           <h1 className="text-4xl font-bold">
@@ -19,8 +19,8 @@ function Home() {
             website design solutions for small businesses, giving lasting
             impressions to audiences in a digital world.
           </p>
-          <div className="flex justify-end underline ">
-          <button className="py-2 bg-slate-500 p-3 rounded-2xl animate-bounce">
+          <div className="flex justify-end underline animate-bounce">
+          <button className="py-2 bg-slate-500 p-3 rounded-2xl  hover:animate-pulse">
             <Link to="/about">Read More</Link>
           </button>
           </div>
@@ -116,7 +116,7 @@ function Home() {
       </div>
       <div className="flex justify-center animate-bounce">
       <button className="py-2 hover:animate-pulse bg-slate-500 p-3 rounded-2xl text-center w-fit">
-            <Link to="/contact">Lets build something!</Link>
+            <Link to="/about">Lets build something!</Link>
       </button>
       </div>
     </div>

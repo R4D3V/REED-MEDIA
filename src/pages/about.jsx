@@ -18,7 +18,8 @@ function About() {
         <h1 className="py-6 text-4xl text-center">
         Why choose REED-MEDIA?
         </h1>
-         <div className="p-4">
+        <div className="lg:grid lg:grid-cols-2 gap-4 pb-4">
+        <div className="p-4">
          <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
             01
           </h1>
@@ -74,7 +75,8 @@ function About() {
           </div>
          </div>
          
-        <h2>
+        </div>
+        <h2 className="px-4">
         Explore our portfolio and see the transformative impact we've had on businesses like yours. Ready to elevate your online presence? Contact REED-MEDIA today and let's embark on a journey to digital excellence together.
         </h2>
 

@@ -51,6 +51,14 @@ const Nav = () => {
             About
           </Link>
           <Link
+            to="/contact"            
+            onClick={() => setNavOpen(false)}
+            className="block mr-2 mt-4 lg:inline-block lg:mt-0  hover:"
+          >
+           Contact
+          </Link>
+
+          <Link
             to="/services"            
             onClick={() => setNavOpen(false)}
             className="block mt-4 lg:inline-block lg:mt-0  hover: mr-4"
@@ -58,11 +66,11 @@ const Nav = () => {
             Services
           </Link>
           <Link
-            to="/contact"            
+            to="/faq"            
             onClick={() => setNavOpen(false)}
             className="block mt-4 lg:inline-block lg:mt-0  hover:"
           >
-            Contact
+           Faq
           </Link>
         </div>
       </div>
