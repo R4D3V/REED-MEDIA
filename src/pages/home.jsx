@@ -51,13 +51,15 @@ function Home() {
           </div>
           <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
             <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] ">
-            Brand naming & guidelines
+            Brand naming & guidelines. 
+            <br />
+            <b className="text-2xl lg:text3xl underline  shadow-xl shadow-black w-fill text-white">Crafting Tomorrows Narratives Today,</b>
             </h1>
           </div>
       </div>
       <div className="p-6 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2">
         <div className="flex justify-center items-center font-serif uppercase ">
-          <h1 className="text-violet-900 text-5xl font-sans font-extrabold">
+          <h1 className="text-violet-900 text-5xl font-sans font-extrabold animate-pulse dark:hover:text-white">
           Our approach for
           creating a winning
           brand.
