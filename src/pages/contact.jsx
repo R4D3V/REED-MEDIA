@@ -2,7 +2,7 @@ import whatsapp from "../icons/whatsapp.svg";
 import name from "../icons/name.png"
 function contact() {
   return (
-    <div className="container px-6 py-8 mx-auto">
+    <div className="container px-6 py-8 mx-auto w-full">
         <div className="flex justify-center w-full ">
             <img src={name} alt="" className="rounded-lg" />
         </div>

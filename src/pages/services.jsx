@@ -1,7 +1,7 @@
 
 function services() {
   return (
-    <div>
+    <div className="w-full">
         <div className="text-center p-4">
             <h1 className="font-bold uppercase">These are our services below.</h1>
             <p>
