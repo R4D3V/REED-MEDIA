@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="gap-2 w-[100%]">
+    <div className="w-full container">
       <div className="p-6 border-gray-500 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="lg:h-[80vh] flex items-center justify-center">          
         <img src={image} alt="brand"  className=""/>
@@ -26,7 +26,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="p-6 place-content-center w-full grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
+      <div className="p-6 place-content-center w-fill grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="">          
         <img src={cons} alt="brand" className="shadow-lg shadow-neutral-950 rounded-lg dark:shadow-slate-200"/>
         </div>
@@ -50,11 +50,8 @@ function Home() {
             <img src={brand} alt="brand"  className="rounded-xl w-full shadow-lg shadow-neutral-950 dark:shadow-slate-200"/>
           </div>
           <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
-            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] sm:pt-[50px] ">
-            Brand naming & guidelines. 
-            <br />
-            <b className="text-2xl lg:text3xl underline  shadow-xl shadow-black w-fill text-white">Crafting Tomorrows Narratives Today,</b>
-            </h1>
+            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[80px]">
+            Brand naming & guidelines.  </h1>
           </div>
       </div>
       <div className="p-6 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2">
@@ -116,8 +113,8 @@ function Home() {
         
         </div>
       </div>
-      <div className="flex justify-center animate-bounce">
-      <button className="py-2 hover:animate-pulse bg-slate-500 p-3 rounded-2xl text-center w-fit">
+      <div className="flex justify-center flex-wrap w-fill animate-bounce">
+      <button className="py-2 ml-6 hover:animate-pulse bg-slate-500 p-3 rounded-2xl text-center w-fit">
             <Link to="/about">Lets build something!</Link>
       </button>
       </div>
