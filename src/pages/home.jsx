@@ -24,8 +24,8 @@ function Home() {
         </div>
       </div>
       <div className="p-6 place-content-center w-full grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
-        <div className="">          
-        <img src={cons} alt="brand" className="rounded-md"/>
+        <div className="shadow-lg shadow-neutral-950 rounded-lg dark:bg-slate-200">          
+        <img src={cons} alt="brand" className="rounded-lg"/>
         </div>
         <div className="lg:pt-24 lg:pl-12">
           <h1 className="text-4xl font-bold">
