@@ -6,10 +6,10 @@ const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-inherit p-6  w-full">
+    <nav className="flex items-center justify-between flex-wrap bg-inherit p-6 font-mono w-full">
       <div className="flex items-center flex-shrink-0  mr-6">
         <img src={image} alt="logo" className='w-8 h-8 rounded-md' />
-        <span className="font-semibold text-xl tracking-tight pl-6">REED~MEDIA</span>
+        <span className="font-semibold text-xl tracking-tight pl-6"><Link to='/'>REED~MEDIA</Link></span>
       </div>
       <div className="block lg:hidden ">
         <button

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <footer className="flex flex-wrap content-center justify-center p-3">
+      <footer className="flex flex-wrap content-center justify-center p-3 font-mono">
         <p className="mt-6 text-sm lg:mt-0">© Copyright {new Date().getFullYear()} <Link to='/'>REED~MEDIA</Link>  </p>
        
     </footer>
