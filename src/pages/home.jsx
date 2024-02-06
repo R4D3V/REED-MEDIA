@@ -1,9 +1,10 @@
 import image from "../icons/icon.png";
-import cons from "../icons/cons.png"
+import cons from "../icons/cons.png";
+import brand from "../icons/brand.png"
 
 function Home() {
   return (
-    <div className="container gap-2 w-[100%] mt-[70px] ">
+    <div className="gap-2 w-[100%] mt-[70px] ">
       <div className="p-6 border-gray-500 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="lg:h-[80vh] flex items-center justify-center">          
         <img src={image} alt="brand" />
@@ -41,9 +42,19 @@ function Home() {
           </h2>
         </div>
       </div>
+      <div className="flex flex-wrap w-full justify-center gap-4 p-4">
+          <div className="w-full relative">
+            <img src={brand} alt="brand"  className="rounded-xl w-full"/>
+          </div>
+          <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
+            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] ">
+            Brand naming & guidelines
+            </h1>
+          </div>
+      </div>
       <div className="p-6 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2">
         <div className="flex justify-center items-center font-serif uppercase ">
-          <h1 className="text-violet-900 text-xl">
+          <h1 className="text-violet-900 text-5xl font-sans font-extrabold">
           Our approach for
           creating a winning
           brand.
