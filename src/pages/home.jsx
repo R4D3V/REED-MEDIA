@@ -47,7 +47,7 @@ function Home() {
             <img src={brand} alt="brand"  className="rounded-xl w-full"/>
           </div>
           <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
-            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] ">
+            <h1 className=" text-center lg:text-8xl text-black md:text-8xl text-4xl font-extrabold pt-[90px] ">
             Brand naming & guidelines
             </h1>
           </div>
