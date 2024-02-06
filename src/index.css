@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media  {
+    
+}
 body{
     font-family: 'Montserrat', sans-serif;
 /* font-family: 'Nanum Gothic', sans-serif; */

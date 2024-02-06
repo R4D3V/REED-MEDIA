@@ -1,7 +1,7 @@
 
 function services() {
   return (
-    <div className="w-full">
+    <div className="w-fill container">
         <div className="text-center p-4">
             <h1 className="font-bold uppercase">These are our services below.</h1>
             <p>
@@ -9,7 +9,7 @@ function services() {
             </p>
         </div>
 
-<div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 p-4">
+<div className="flex p-4 flex-wrap w-fill justify-center lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 gap-4">
     <div className="p-4  m-2 shadow-black shadow-lg dark:shadow-teal-200 dark:border-x-amber-100 dark:border-2 rounded-lg h-fit w-fit">
          <h1 className="text-8xl absolute dark:text-gray-700 text-violet-400 font-bold z-1" >
             01
