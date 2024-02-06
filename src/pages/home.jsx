@@ -50,7 +50,7 @@ function Home() {
             <img src={brand} alt="brand"  className="rounded-xl w-full shadow-lg shadow-neutral-950 dark:shadow-slate-200"/>
           </div>
           <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
-            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] ">
+            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[90px] sm:pt-[50px] ">
             Brand naming & guidelines. 
             <br />
             <b className="text-2xl lg:text3xl underline  shadow-xl shadow-black w-fill text-white">Crafting Tomorrows Narratives Today,</b>
