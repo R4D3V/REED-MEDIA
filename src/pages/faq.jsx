@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import grass from "../icons/bill1.png";
 
 function faq() {
   return (
@@ -121,6 +122,9 @@ function faq() {
 
             </h2>
         </div>
+        <div className="flex justify-center p-4">
+           <img src={grass} alt=""  className="rounded-lg dark:shadow-green-600 shadow-md lg:h-auto lg:w-[40vw] md:w-[40vw] sm:w-[30vw] xs:w-[20vw]"/>
+           </div>
         <div className="flex pt-4 justify-center animate-bounce">
       <button className="py-2 hover:animate-pulse bg-slate-500 p-2 rounded-2xl text-center w-fit">
             <Link to="/contact">Lets build something!</Link>
