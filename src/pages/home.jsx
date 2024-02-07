@@ -45,12 +45,12 @@ function Home() {
           </h2>
         </div>
       </div>
-      <div className="flex flex-wrap w-full justify-center gap-4 p-4">
-          <div className="w-full relative">
+      <div className="flex md:w-full justify-center gap-4 p-4">
+          <div className="md:w-[40vw]l lg:w-[50vw] sm:w-[60vw] h-auto relative flex justify-center">
             <img src={brand} alt="brand"  className="rounded-xl w-full shadow-lg shadow-neutral-950 dark:shadow-slate-200"/>
           </div>
           <div className="absolute lg:mt-44 flex justify-center place-content-center items-center flex-wrap px-14">
-            <h1 className=" text-center lg:text-8xl text-gray-400 md:text-8xl text-4xl font-extrabold pt-[80px]">
+            <h1 className=" text-center lg:text-4xl text-gray-400 md:text-3xl text-4xl font-extrabold pt-[80px]">
             Brand naming & guidelines.  </h1>
           </div>
       </div>
