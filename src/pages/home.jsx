@@ -19,8 +19,8 @@ function Home() {
             website design solutions for small businesses, giving lasting
             impressions to audiences in a digital world.
           </p>
-          <div className="flex justify-end underline animate-bounce">
-          <button className="py-2 bg-slate-500 p-3 rounded-2xl  hover:animate-pulse">
+          <div className="flex justify-end underline font-mono">
+          <button className="py-2 bg-gray-600 text-white uppercase p-3 rounded-2xl animate-pulse">
             <Link to="/about">Read More</Link>
           </button>
           </div>

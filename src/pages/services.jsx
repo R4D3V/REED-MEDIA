@@ -5,7 +5,7 @@ function services() {
   return (
     <div className="w-fill container">
         <div className="flex justify-center p-4">
-           <img src={grass} alt=""  className="rounded-lg dark:shadow-green-600 shadow-md lg:h-auto lg:w-[40vw] md:w-[40vw] sm:w-[30vw] xs:w-[20vw]"/>
+           <img src={grass} alt=""  className="rounded-lg dark:shadow-green-600 shadow-md lg:h-auto lg:w-[40vw] md:w-[30vw] sm:w-[20vw] "/>
            </div>
         <div className="text-center p-4">
             <h1 className="font-bold uppercase">These are our services below.</h1>

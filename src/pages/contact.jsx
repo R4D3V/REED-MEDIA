@@ -4,7 +4,7 @@ function contact() {
   return (
     <div className="container px-6 py-8 mx-auto w-full">
         <div className="flex justify-center w-full ">
-            <img src={name} alt="" className="rounded-lg" />
+            <img src={name} alt="" className="rounded-lg lg:w-[40vw] md:w-[30vw]" />
         </div>
         <div className="pt-4">
             <p className="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
