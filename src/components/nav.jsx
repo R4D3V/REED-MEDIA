@@ -73,7 +73,7 @@ const Nav = () => {
            Faq
           </Link>
           <a href="http://r4d3v.vercel.app" target="_blank" rel="noopener noreferrer"
-             className="block mt-4 lg:inline-block lg:mt-0  hover:">
+             className="block lg:pl-4 md:pl-3 mt-4 lg:inline-block lg:mt-0  hover:">
             Creator
           </a>
         </div>
