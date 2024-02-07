@@ -85,7 +85,7 @@ function About() {
         Explore our portfolio and see the transformative impact we've had on businesses like yours. Ready to elevate your online presence? Contact REED-MEDIA today and let's embark on a journey to digital excellence together.
         </h2>
         <div className="p-4">
-            <img src={card} alt="" className="rounded-lg dark:shadow-slate-200 shadow-md shadow-black animate-pulse" />
+            <img src={card} alt="" className="rounded-lg dark:shadow-slate-200 shadow-md shadow-black animate-pulse hover:animate-none" />
         </div>
 
         <div className="flex justify-center animate-bounce">
