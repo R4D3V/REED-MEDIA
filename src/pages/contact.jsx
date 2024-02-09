@@ -1,5 +1,7 @@
-import whatsapp from "../icons/whatsapp.svg";
-import name from "../icons/name.png"
+import whatsapp from "../icons/whatsapp.png";
+import name from "../icons/name.png";
+import instagram from "../icons/Instagram.png";
+import telegram from "../icons/telegram.png";
 function contact() {
   return (
     <div className="container px-6 py-8 mx-auto w-full">
@@ -64,13 +66,37 @@ function contact() {
                 <div>
                     <span className=" p-2  rounded-full  ">
                     <a href="https://wa.me/message/EMSUIOYUA5SDI1">
-                    <img src={whatsapp} alt=""  className="w-9 p-1 h-9 animate-bounce bg-green-700 rounded-full flex-shrink-0" />
+                    <img src={whatsapp} alt=""  className="w-9 p-1 h-9 animate-bounce  flex-shrink-0" />
                     </a>
                     </span>
                     
                     <h2 className="mt-2 text-base font-medium text-gray-800 dark:text-white">Whatsapp</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><a href="https://wa.me/message/EMSUIOYUA5SDI1"> +973 37559735 </a></p>
+                </div>
+
+                <div>
+                    <span className=" p-2  rounded-full  ">
+                    <a href="https://www.instagram.com/r4d3v/">
+                    <img src={instagram} alt=""  className="w-9 p-1 h-9 animate-bounce  flex-shrink-0" />
+                    </a>
+                    </span>
+                    
+                    <h2 className="mt-2 text-base font-medium text-gray-800 dark:text-white">Instagram</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><a href="https://www.instagram.com/r4d3v/">R4D3V</a></p>
+                </div>
+
+                <div>
+                    <span className=" p-2  rounded-full  ">
+                    <a href="https://t.me/patrolfx">
+                    <img src={telegram} alt=""  className="w-9 p-1 h-9 animate-bounce  flex-shrink-0" />
+                    </a>
+                    </span>
+                    
+                    <h2 className="mt-2 text-base font-medium text-gray-800 dark:text-white">Telegram</h2>
+                    <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><a href="https://t.me/patrolfx">PATROLFX</a></p>
                 </div>
             </div>
     </div>
