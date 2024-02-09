@@ -114,7 +114,9 @@ function faq() {
             </div>
         </div>
         <div  className="mt-8 font-mono">
-            <h1 className="text-right py-4 first-letter:text-4xl relative">
+            <h1 className="text-right 
+  first-letter:text-4xl first-letter:font-bold 
+  first-letter:float-left first-letter:font-serif relative ">
             REED-MEDIA distinguishes itself through a blend of expertise, innovation, and client-centric collaboration. Our team is dedicated to delivering tailored solutions that not only meet but exceed client expectations. Explore our testimonials to hear about the experiences of our satisfied clients.
             </h1>
             <h2 className="text-left py-4">
