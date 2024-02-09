@@ -70,7 +70,7 @@ function contact() {
                     </a>
                     </span>
                     
-                    <h2 className="mt-2 text-base font-medium text-gray-800 dark:text-white">Whatsapp</h2>
+                    <h2 className="mt-3 text-base font-medium text-gray-800 dark:text-white">Whatsapp</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><a href="https://wa.me/message/EMSUIOYUA5SDI1"> +973 37559735 </a></p>
                 </div>
@@ -82,7 +82,7 @@ function contact() {
                     </a>
                     </span>
                     
-                    <h2 className="mt-2 text-base font-medium text-gray-800 dark:text-white">Instagram</h2>
+                    <h2 className="mt-3 text-base font-medium text-gray-800 dark:text-white">Instagram</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><a href="https://www.instagram.com/r4d3v/">R4D3V</a></p>
                 </div>
@@ -94,7 +94,7 @@ function contact() {
                     </a>
                     </span>
                     
-                    <h2 className="mt-2 text-base font-medium text-gray-800 dark:text-white">Telegram</h2>
+                    <h2 className="mt-3 text-base font-medium text-gray-800 dark:text-white">Telegram</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
                     <p className="mt-2 text-sm text-blue-500 dark:text-blue-400"><a href="https://t.me/patrolfx">PATROLFX</a></p>
                 </div>
