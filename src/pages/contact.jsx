@@ -64,9 +64,9 @@ function contact() {
                 </div>
 
                 <div>
-                    <span className=" p-2  rounded-full  ">
+                    <span className="   rounded-full  ">
                     <a href="https://wa.me/message/EMSUIOYUA5SDI1">
-                    <img src={whatsapp} alt=""  className="w-9 p-1 h-9 animate-bounce  flex-shrink-0" />
+                    <img src={whatsapp} alt=""  className="w-12 p-1 h-12 animate-bounce  flex-shrink-0" />
                     </a>
                     </span>
                     
@@ -76,9 +76,9 @@ function contact() {
                 </div>
 
                 <div>
-                    <span className=" p-2  rounded-full  ">
+                    <span className="  rounded-full  ">
                     <a href="https://www.instagram.com/r4d3v/">
-                    <img src={instagram} alt=""  className="w-9 p-1 h-9 animate-bounce  flex-shrink-0" />
+                    <img src={instagram} alt=""  className="w-12 p-1 h-12 animate-bounce  flex-shrink-0" />
                     </a>
                     </span>
                     
@@ -88,9 +88,9 @@ function contact() {
                 </div>
 
                 <div>
-                    <span className=" p-2  rounded-full  ">
+                    <span className="  rounded-full  ">
                     <a href="https://t.me/patrolfx">
-                    <img src={telegram} alt=""  className="w-9 p-1 h-9 animate-bounce  flex-shrink-0" />
+                    <img src={telegram} alt=""  className="w-12 p-1 h-12 animate-bounce  flex-shrink-0" />
                     </a>
                     </span>
                     
