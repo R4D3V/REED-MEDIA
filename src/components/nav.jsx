@@ -10,7 +10,7 @@ const Nav = () => {
       <div className="flex items-center flex-shrink-0  mr-6">
       <Link to='/'><img src={image} alt="logo" className='w-8 h-8 rounded-md' /></Link>
         
-        <span className="font-semibold text-xl tracking-tight pl-6">REED~MEDIA</span>
+        <span className="text-xl tracking-tight font-bold pl-6">REED~MEDIA</span>
       </div>
       <div className="block lg:hidden ">
         <button
