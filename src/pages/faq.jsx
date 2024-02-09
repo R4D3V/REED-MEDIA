@@ -3,7 +3,7 @@ import grass from "../icons/bill1.png";
 
 function faq() {
   return (
-    <div className="container px-6 py-4 mx-auto w-full">
+    <div className="container mx-auto px-6 py-4w-full">
         <h1 className="text-2xl font-semibold  lg:text-3xl">Frequently asked questions.</h1>
 
         <div className="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">

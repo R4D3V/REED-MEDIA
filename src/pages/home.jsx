@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="w-full container">
+    <div className="w-full container mx-auto">
       <div className="p-6 border-gray-500 place-content-center grid gap-8 lg:grid-cols-2 xl:grid-cols-2  md:grid-cols-2 ">
         <div className="lg:h-[80vh] flex items-center justify-center">          
         <img src={image} alt="brand"  className=""/>

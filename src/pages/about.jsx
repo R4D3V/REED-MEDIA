@@ -5,7 +5,7 @@ import card from "../icons/shop.png"
 function About() {
     
   return (
-    <div className="p-4 w-full">
+    <div className="p-4 w-full container mx-auto">
         <div className="pb-4 font-bold">
             <h1 className="text-3xl text-center ">
             Welcome to REED-MEDIA – Crafting Digital Excellence
